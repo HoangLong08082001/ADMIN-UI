@@ -1,0 +1,35 @@
+.wrapper {
+  width: 15%;
+  height: 100vh;
+  background: rgb(30, 30, 30);
+}
+.title-dash {
+  padding: 20px 20px;
+  font-size: 20px;
+  background: #67afef;
+  color: white;
+  font-weight: 700;
+}
+.list-menu {
+  p {
+    color: rgb(189, 189, 189);
+    text-align: center;
+    margin-top: 5px;
+  }
+  .item-menu li {
+    cursor: pointer;
+    padding: 30px 20px;
+    span {
+      margin-left: 20px;
+      color: rgb(143, 142, 142);
+      transition: 0.1s linear;
+      &:hover {
+        color: white;
+        transition: 0.1s linear;
+      }
+    }
+    .icon-menu {
+      color: rgb(143, 142, 142);
+    }
+  }
+}
